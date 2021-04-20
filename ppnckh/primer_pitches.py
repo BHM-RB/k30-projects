@@ -29,3 +29,8 @@ print(pitch3)
 
 primer_pitches='[' + str(pitch1) + ',' + str(pitch2) + ',' + str(pitch3) + ']'
 print(primer_pitches)
+
+
+def get_primer_pitches(img):
+    #TODO: read img, return primer_pitches
+    return primer_pitches

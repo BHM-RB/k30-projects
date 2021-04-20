@@ -29,3 +29,8 @@ for face in faces:
     emotion_detector.detect_emotions(face_img)
     emotion, score = emotion_detector.top_emotion(face_img)
     print(emotion)
+
+
+def get_emotion(img):
+    #TODO: read img, return emotion
+    return emotion
