@@ -4,8 +4,8 @@ from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
 
 # load pretrained model
 
-tokenizer = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-large-960h")
-model = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-large-960h")
+tokenizer = Wav2Vec2Processor.from_pretrained("trained_model")
+model = Wav2Vec2ForCTC.from_pretrained("trained_model")
 
 # load audio
 audio_input, _ = sf.read("audio_example.flac")
